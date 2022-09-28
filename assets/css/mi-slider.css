@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*==========================*/
+
+.theme-mi-slider .nivoSlider{
+	position:relative;
+}
+
+.theme-mi-slider .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+/* Nivo Pagination =========================*/
+
+.nivo-controlNav{
+	display: flex;
+	justify-content: center;
+}
+
+.theme-mi-slider .nivo-control{
+	display: block;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	
+	margin: 3px;
+	text-indent: -9999px
+}
+
+.theme-mi-slider .nivo-control:hover{
+	background: #ffffff00;
+}
+
+.theme-mi-slider .active{
+	background: #ffffff00;
+}
+
+/* Nivo direction ============*/
+.nivo-directionNav a{
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+
+.nivo-directionNav .nivo-prevNav{
+	background-image: url(../img/icons/circle-left.svg);
+	background-size: cover;
+	text-indent: -9999px;
+	left: 5px;
+}
+
+.nivo-directionNav .nivo-nextNav{
+	background-image: url(../img/icons/circle-right.svg);
+	background-size: cover;
+	text-indent: -9999px;
+	right: 5px;
+}
+
+
+/*Nivo Caption*/
+
+.nivo-html-caption{
+	position: absolute;
+}
